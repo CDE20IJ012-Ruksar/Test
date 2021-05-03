@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.springframework.org/schema/beans
+https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<bean id="account" class="com.cognizant.model.Account">
+<property name="number" value="H00987987972342"></property>
+<property name="type" value="car"></property>
+<property name="loan" value="400000"></property>
+<property name="emi" value="3258"></property>
+<property name="tenure" value="18"></property>
+</bean>
+
+
+
+
+</beans>
